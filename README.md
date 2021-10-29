@@ -20,10 +20,7 @@ curl -L https://raw.githubusercontent.com/yezune/home/main/.vimrc > .vimrc
 ## 2.tmux
 
 ```sh
-sudo apt install tmux
-
 curl -L https://raw.githubusercontent.com/yezune/home/main/.tmux.conf > .tmux.conf
-
 ```
 
 
