@@ -1,6 +1,10 @@
 # User setting files like vim, tmux
 ## 0.Quick Start
 ```sh
+curl https://raw.githubusercontent.com/yezune/home/main/install.sh | bash
+```
+## Or
+```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim  && \
 curl -L https://raw.githubusercontent.com/yezune/home/main/.vimrc > .vimrc  &&\
