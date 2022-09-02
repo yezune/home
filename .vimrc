@@ -31,6 +31,7 @@ Plug 'cespare/vim-toml', { 'branch': 'main'}
 
 "Rust-lang Configuration
 Plug 'rust-lang/rust.vim'
+Plug 'dense-analysis/ale'
 
 "YOUCOMPLETEME: A CODE-COMPLETION ENGINE FOR VIM
 Plug 'valloric/youcompleteme'
