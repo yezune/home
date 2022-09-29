@@ -31,7 +31,3 @@ curl -L https://raw.githubusercontent.com/yezune/home/main/.vimrc > .vimrc
 ```sh
 curl -L https://raw.githubusercontent.com/yezune/home/main/.tmux.conf > .tmux.conf
 ```
-
-
-
-
