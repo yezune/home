@@ -4,6 +4,8 @@ set path+=**
 
 set wildmenu
 
+set ts=4
+
 command! MakeTags !ctags -R .
 
 " Specify a directory for plugins
@@ -31,10 +33,12 @@ Plug 'cespare/vim-toml', { 'branch': 'main'}
 
 "Rust-lang Configuration
 Plug 'rust-lang/rust.vim'
-Plug 'dense-analysis/ale'
 
 "YOUCOMPLETEME: A CODE-COMPLETION ENGINE FOR VIM
 Plug 'valloric/youcompleteme'
+
+"Copilot: github source code assistance'
+Plug 'github/copilot.vim'
 
 " Initialize plugin system
 call plug#end()
